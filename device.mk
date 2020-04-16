@@ -52,6 +52,14 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
+    android.hardware.camera.provider@2.4-impl \
+    android.hardware.camera.provider@2.4-service \
+    libgui_vendor \
+    GCam
+
+# Configstore
+PRODUCT_PACKAGES += \
+    android.hardware.configstore@1.1-service
 
 # Display
 PRODUCT_PACKAGES += \
@@ -139,6 +147,7 @@ PRODUCT_PACKAGES += \
     qti_telephony_utils.xml \
     telephony-ext
 
+#telephony
 PRODUCT_BOOT_JARS += \
     telephony-ext
 

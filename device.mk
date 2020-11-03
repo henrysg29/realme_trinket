@@ -52,7 +52,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap
+    Gcam
 
 # Display
 PRODUCT_PACKAGES += \

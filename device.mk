@@ -52,7 +52,6 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Gcam
 
 # Display
 PRODUCT_PACKAGES += \

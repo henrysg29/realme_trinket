@@ -166,3 +166,7 @@ PRODUCT_BOOT_JARS += \
 # zRam
 PRODUCT_PACKAGES += \
     set_zram.sh
+
+# Thermal
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
